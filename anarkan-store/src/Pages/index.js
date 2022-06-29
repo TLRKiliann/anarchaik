@@ -59,6 +59,29 @@ const Home = () => {
         </article>
       </div>
 
+      <div className="home--third">
+        <article>
+          <h3>Special truc</h3>
+          <p>
+          Last week we found special features for you !
+          Last week we found special features for you !
+          Last week we found special features for you !
+          Last week we found special features for you !
+          Last week we found special features for you !
+          Last week we found special features for you !
+          Last week we found special features for you !
+          </p>
+          <p>
+          Last week we found special features for you !
+          Last week we found special features for you !
+          Last week we found special features for you !
+          Last week we found special features for you !<br />
+          Last week we found special features for you !
+          </p>
+
+        </article>
+      </div>
+
     </div>
   );
 };
