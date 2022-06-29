@@ -84,9 +84,14 @@ const Home = () => {
 
           </article>
         </div>
-
       </div>
+    </div>
+  );
+};
 
+export default Home;
+
+/*
       <footer>
         <nav id="footer--nav">
           <ul>
@@ -108,10 +113,4 @@ const Home = () => {
           </ul>
         </nav>
       </footer>
-
-
-    </div>
-  );
-};
-
-export default Home;
+*/
