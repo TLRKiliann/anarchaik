@@ -6,7 +6,9 @@ import Home from './Pages';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Blog from './Pages/Blog';
-//import SignUp from './Pages/signup';
+//import FooterBar from './Components/FooterBar';
+//import Photos from './FootPages/Photos';
+//import Partners from './FootPages/Partners';
 import './App.css';
 
 function App() {
@@ -28,3 +30,12 @@ function App() {
 }
 
 export default App;
+
+/*
+          <FooterBar />
+          <Routes>
+            <Route exact path='/' element={<Home />} />
+            <Route path='/Photos' element={<Photos />} />
+            <Route path='/Partners' element={<Partners />} />
+          </Routes>
+*/

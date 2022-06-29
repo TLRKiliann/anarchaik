@@ -1,9 +1,9 @@
 import React from 'react';
-import "./style.css"
+import './style.css';
 
 const Blog = () => {
   return (
-    <div id="mainblog--div">
+    <div className="mainblog--div">
       <div className="blog--div">
         <h1>Blog</h1>
       </div>
