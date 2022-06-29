@@ -1,12 +1,12 @@
 import React from 'react';
-
+import './style.css';
 //import "./home.css";
 //import "./index.scss";
 
 const Home = () => {
   return (
     <div className="main--home">
-      <div className="home--div">
+      <div className="home--first">
         
         <div className="home--sec">
           <h1>Welcome to Anarchaik !</h1>
