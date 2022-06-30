@@ -2,21 +2,22 @@ body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-}
-
-.main--home {
-    width: 90%;
-    margin: auto;
-    margin-top: 0px;
-    padding: 20px 0px;
 
     background: whitesmoke;
 }
 
-.home--first {
-    width: 80%;
+.main--home {
+    width: 100%;
     margin: auto;
-    border: 1px solid orange;
+    /*padding: 0px 0px;*/
+    background-image: url(../images/sand2.jpg);
+}
+
+.home--first {
+    width: 800px;
+    margin: auto;
+    padding: 20px 0px;
+    background: whitesmoke;
 }
 
 .home--sec {
@@ -26,7 +27,70 @@ body {
     text-align: center;
     background: white;
 
-    border: 1px solid black;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.home--sec h1 {
+    font-family: 'One-serif';
+    color: dodgerblue;
+
+    animation-name: title;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.home--sec h3 {
+    font-family: 'One-serif';
+
+    opacity: 1;
+    animation-name: secondtitle;
+    animation-delay: 0s;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+}
+
+@keyframes secondtitle {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes title {
+    0% {
+        scale: 1;
+    }
+    25% {
+        scale: 1.75;
+        color: orange;
+    }
+    75%{
+        scale: 0;
+        color: yellow;
+    }
+    100% {
+        scale: 1;
+    }
+}
+
+.beach--img {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+
+    width: 75%;
+    height: 75%;
+    border-radius: 5px;
 }
 
 .home--third {
@@ -34,13 +98,19 @@ body {
     margin: auto;
     margin-top: 20px;
     padding: 10px 20px;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
 
     background: white;
 }
 
 .home--third p {
+    font-family: 'Karla', sans-serif;
     text-indent: 20px;
     text-align: justify;
+}
 
+#swimmer {
+    margin: auto;
+    border: 2px solid orange;
 }
