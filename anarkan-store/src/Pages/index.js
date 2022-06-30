@@ -1,6 +1,9 @@
 import React from 'react';
+import { FaSwimmer, FaUmbrellaBeach } from 'react-icons/fa';
+import { BiSun } from 'react-icons/bi';
+import { GiPalmTree, GiSharkFin } from 'react-icons/gi';
+import beach from '../images/wall_beach1.jpg';
 import './style.css';
-//import "./home.css";
 //import "./index.scss";
 
 const Home = () => {
@@ -10,12 +13,16 @@ const Home = () => {
         
         <div className="home--sec">
           <h1>Welcome to Anarchaik !</h1>
-          <h3>Choice what you want !</h3>
+          <h3>Let your dreams come true&nbsp;<BiSun /></h3>
+        </div>
+
+        <div className="beach--img">
+          <img src={beach} alt="beach" />
         </div>
 
         <div className="home--third">
           <article>
-            <h3>History</h3>
+            <h3>History&nbsp;<FaUmbrellaBeach /></h3>
             <p>
             Last week we found special features for you !
             Last week we found special features for you !
@@ -40,7 +47,7 @@ const Home = () => {
 
         <div className="home--third">
           <article>
-            <h3>Our Work</h3>
+            <h3>Our Work&nbsp;<GiPalmTree /></h3>
             <p>
             Last week we found special features for you !
             Last week we found special features for you !
@@ -64,7 +71,10 @@ const Home = () => {
 
         <div className="home--third">
           <article>
-            <h3>Yes we can !</h3>
+            <h3>Yes we can !&nbsp;&nbsp;
+              <FaSwimmer />&nbsp;&nbsp;
+              <GiSharkFin />
+            </h3>
             <p>
             Last week we found special features for you !
             Last week we found special features for you !
