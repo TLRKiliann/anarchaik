@@ -1,3 +1,25 @@
+body,
+html {
+  font-family: Arial, Roboto, Helvetica, Poppins, sans-serif;
+}
+/*
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url(./fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 900;
+  src: local('Poppins'), url(./fonts/Poppins-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 900;
+  src: local('Poppins'), url(./fonts/Poppins-Black.ttf) format('truetype');
+}*/
+
 body {
     padding: 0px;
     margin: 0px;
@@ -13,14 +35,26 @@ body {
     background-image: url(../images/sand2.jpg);
 }
 
-.home--first {
+.filter--rgba {
     width: 800px;
     margin: auto;
-    padding: 20px 0px;
-    background: whitesmoke;
+
+    /*background: whitesmoke;*/
+
+    background-image: url(../images/sand2.jpg);
+    opacity: 0.7;
+
+}
+
+.home--first {
+    padding: 40px 0px;
+    background-color: rgba(0,0,255,0.06);
+    box-shadow: 0px 0px 10px black;
+
 }
 
 .home--sec {
+    position: relative;
     width: 600px;
     margin: auto;
     padding: 10px 0px;
@@ -28,27 +62,34 @@ body {
     background: white;
 
     border: 1px solid lightgrey;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px black;
 }
 
 .home--sec h1 {
-    font-family: 'One-serif';
+    font-family: 'Roboto', sans-serif;
     color: dodgerblue;
 
     animation-name: title;
     animation-delay: 0s;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
+    transform: rotate3d(0, 0, 0, 0deg);
 }
 
 .home--sec h3 {
-    font-family: 'One-serif';
+    font-family: 'Helvetica';
+    color: green;
 
     opacity: 1;
     animation-name: secondtitle;
     animation-delay: 0s;
     animation-duration: 6s;
     animation-timing-function: ease;
+}
+
+.color--sun {
+    color: orange;
 }
 
 @keyframes secondtitle {
@@ -63,17 +104,21 @@ body {
 @keyframes title {
     0% {
         scale: 1;
+        transform: rotate3d(2, -2, 2, 0deg);
     }
     25% {
         scale: 1.75;
         color: orange;
+        transform: rotate3d(-3, 2, 2, 90deg);
     }
     75%{
-        scale: 0;
-        color: yellow;
+        scale: 0.5;
+        color: red;
+        transform: rotate3d(3, -2, -3, 90deg);
     }
     100% {
         scale: 1;
+        transform: rotate3d(0, 2, -2, 360deg);
     }
 }
 
@@ -90,7 +135,8 @@ img {
 
     width: 75%;
     height: 75%;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px black;
 }
 
 .home--third {
@@ -98,14 +144,24 @@ img {
     margin: auto;
     margin-top: 20px;
     padding: 10px 20px;
+    
     border: 1px solid lightgrey;
-    border-radius: 5px;
-
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px black;
     background: white;
 }
 
+.art--title {
+    padding: 10px 20px;
+    font-family: "One-serif";
+    text-align: justify;
+    background: lightgrey;
+    border: 1px solid blue;
+    color: blue;
+}
+
 .home--third p {
-    font-family: 'Karla', sans-serif;
+    font-family: "Helvetica";
     text-indent: 20px;
     text-align: justify;
 }

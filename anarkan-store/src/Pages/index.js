@@ -9,90 +9,94 @@ import './style.css';
 const Home = () => {
   return (
     <div className="main--home">
-      <div className="home--first">
-        
-        <div className="home--sec">
-          <h1>Welcome to Anarchaik !</h1>
-          <h3>Let your dreams come true&nbsp;<BiSun /></h3>
-        </div>
 
-        <div className="beach--img">
-          <img src={beach} alt="beach" />
-        </div>
+      <div className="filter--rgba">
+      
+        <div className="home--first">
+          
+          <div className="home--sec">
+            <h1>Welcome to Anarkan !</h1>
+            <h3>Let your dreams come true&nbsp;<BiSun className="color--sun"/></h3>
+          </div>
 
-        <div className="home--third">
-          <article>
-            <h3>History&nbsp;<FaUmbrellaBeach /></h3>
-            <p>
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            </p>
-            <p>
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !<br />
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            </p>
+          <a href="./images/wall_beach1" target="_blank" className="beach--img">
+            <img src={beach} alt="beach" />
+          </a>
 
-          </article>
-        </div>
+          <div className="home--third">
+            <article>
+              <h3 className="art--title">History&nbsp;<FaUmbrellaBeach /></h3>
+              <p>
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              </p>
+              <p>
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !<br />
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              </p>
 
-        <div className="home--third">
-          <article>
-            <h3>Our Work&nbsp;<GiPalmTree /></h3>
-            <p>
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you
-            </p>
-            <p>
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you<br />
-            Last week we found special features for you !
-            Last week we found special features for you !
-            </p>
+            </article>
+          </div>
 
-          </article>
-        </div>
+          <div className="home--third">
+            <article>
+              <h3 className="art--title">Our Work&nbsp;<GiPalmTree /></h3>
+              <p>
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you
+              </p>
+              <p>
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you<br />
+              Last week we found special features for you !
+              Last week we found special features for you !
+              </p>
 
-        <div className="home--third">
-          <article>
-            <h3>Yes we can !&nbsp;&nbsp;
-              <FaSwimmer />&nbsp;&nbsp;
-              <GiSharkFin />
-            </h3>
-            <p>
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            </p>
-            <p>
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !
-            Last week we found special features for you !<br />
-            Last week we found special features for you !
-            </p>
+            </article>
+          </div>
 
-          </article>
+          <div className="home--third">
+            <article>
+              <h3 className="art--title">Yes we can !&nbsp;&nbsp;
+                <FaSwimmer />&nbsp;&nbsp;
+                <GiSharkFin />
+              </h3>
+              <p>
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              </p>
+              <p>
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !
+              Last week we found special features for you !<br />
+              Last week we found special features for you !
+              </p>
+
+            </article>
+          </div>
         </div>
       </div>
     </div>
